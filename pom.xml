@@ -11,13 +11,13 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-
     <groupId>ru.practicum</groupId>
     <artifactId>book-view-spring</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
     <modules>
         <module>serving-web-content</module>
+        <module>sbur-rest-demo</module>
     </modules>
 
     <properties>
@@ -50,6 +50,11 @@
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
             <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
         <dependency>
