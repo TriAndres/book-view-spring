@@ -1,0 +1,6 @@
+- гайд
+---
+- Securing a Web Application
+- https: //spring.io/guides/gs/securing-web
+- http: //localhost:8080/greeting?name=User
+---
