@@ -1,0 +1,3 @@
+- Postman
+- GET
+- http: //localhost:8080/coffees
