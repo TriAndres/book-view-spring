@@ -1,3 +1,13 @@
 - Postman
 - GET
 - http: //localhost:8080/coffees
+- GET
+- http: //localhost:8080/coffees/{id}
+- POST
+- http: //localhost:8080/coffees
+- {
+- "id": "99999",
+- "name": "Kalds Coffee"
+- }
+- DELETE
+- http: //localhost:8080/coffees/{id}
