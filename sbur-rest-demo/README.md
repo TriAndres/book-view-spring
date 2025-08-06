@@ -11,3 +11,8 @@
 - }
 - DELETE
 - http: //localhost:8080/coffees/{id}
+- ------------------------------------
+- GET
+- http: //localhost:8080/greeting
+- GET
+- http: //localhost:8080/greeting/coffee
